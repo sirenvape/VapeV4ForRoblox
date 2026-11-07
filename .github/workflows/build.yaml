@@ -16,7 +16,7 @@ jobs:
     - name: Clone destination files
       uses: actions/checkout@v6
       with:
-        repository: 7GrandDadPGN/VapeCompiled
+        repository: sirenvape/GhostVapeCompiled
         token: ${{ secrets.ACTIONS_GITHUB_TOKEN }}
         path: "./VapeCompiled"
 
@@ -45,11 +45,11 @@ jobs:
     - name: Setup git commit
       run: |-
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "username@users.noreply.github.com"
+        git config --global user.email "sirenvape@users.noreply.github.com"
 
     - name: Push commit
       run: |-
         cd ./VapeCompiled
         git add .
-        git commit -m "Updated Vape"
+        git commit -m "Updated GhostVape"
         git push origin
