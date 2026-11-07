@@ -54,3 +54,4 @@ jobs:
         git add .
         git commit -m "Updated GhostVape"
         git push origin
+        
