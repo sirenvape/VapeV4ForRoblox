@@ -1,1 +1,1 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/sirenvape/GhostVapeCompiled/main/loader.lua', true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeCompiled/main/loader.lua', true))()
